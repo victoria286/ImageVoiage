@@ -20,7 +20,7 @@ const faqs = [
     a: "Rediscover and refine your personal style so it mirrors your evolution through color, fit, and silhouette.",
   },
   {
-    q: "The Impact Journey",
+    q: "The Style Journey",
     a: "Each journey is unique. Some clients focus on wardrobe and grooming; others dive deeper into self-discovery.",
   },
   {
