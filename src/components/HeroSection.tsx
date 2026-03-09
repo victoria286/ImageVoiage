@@ -43,7 +43,7 @@ const HeroSection = () => {
             transition={{ duration: 0.7, delay: 0.25 }}
             className="font-body text-lg leading-relaxed text-primary-foreground/80 mb-10 max-w-xl"
           >
-            At Voiage, we believe everyone deserves to see themselves clearly and feel
+            At Image Voiage, we believe everyone deserves to see themselves clearly and feel
             confident in their own skin. We're here to walk alongside you, helping you
             discover your true style and express who you really are—so you can embrace
             every change with grace and excitement.
