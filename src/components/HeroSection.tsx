@@ -22,7 +22,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
             className="font-body text-sm font-semibold uppercase tracking-[0.2em] text-sky mb-4"
           >
-            Personal Styling Consultancy
+            Image Consultancy
           </motion.p>
 
           <motion.h1
