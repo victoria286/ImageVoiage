@@ -12,9 +12,6 @@ const Footer = () => {
               Presence with intention. Align how you show up with who you are.
             </p>
             <div className="flex gap-4 mt-6">
-              <a href="#" aria-label="Instagram" className="text-navy-foreground/50 hover:text-sky transition-colors">
-                <Instagram size={20} />
-              </a>
               <a href="https://www.linkedin.com/in/vctoria-consultant/" aria-label="LinkedIn" className="text-navy-foreground/50 hover:text-sky transition-colors">
                 <Linkedin size={20} />
               </a>
@@ -40,7 +37,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={16} className="mt-0.5 text-sky" />
-                <span>Mon – Fri: 9:00 AM – 5:00 PM</span>
+                <span>Mon – Fri: 9:00 AM – 5:00 PM (EST) </span>
               </li>
             </ul>
           </div>
