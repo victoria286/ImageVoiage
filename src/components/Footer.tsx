@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="font-display text-2xl font-bold mb-4">Image Voiage</h3>
             <p className="font-body text-navy-foreground/70 leading-relaxed text-sm max-w-xs">
-              Where inner transformation meets outer expression. Step confidently into your next chapter.
+              Presence with intention. Align how you show up with who you are.
             </p>
             <div className="flex gap-4 mt-6">
               <a href="#" aria-label="Instagram" className="text-navy-foreground/50 hover:text-sky transition-colors">
@@ -31,7 +31,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <Mail size={16} className="mt-0.5 text-sky" />
                 <a href="mailto:victoria@imagevoiyagellc.com" className="hover:text-sky transition-colors">
-                  victoria@imagevoiyagellc.com
+                  victoria@imagevoiagellc.com
                 </a>
               </li>
               <li className="flex items-start gap-3">

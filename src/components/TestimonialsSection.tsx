@@ -59,10 +59,10 @@ const TestimonialsSection = () => {
               <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-body text-xs font-semibold uppercase tracking-wider mb-5">
                 {t.persona}
               </div>
-              <p className="font-body text-foreground/85 leading-relaxed mb-5 italic">
+              <p className="font-body text-foreground leading-relaxed mb-5 italic">
                 "{t.text}"
               </p>
-              <p className="font-body text-sm text-muted-foreground font-medium">
+              <p className="font-body text-sm text-foreground font-medium">
                 — {t.recommendation}
               </p>
             </div>

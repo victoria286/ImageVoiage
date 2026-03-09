@@ -34,7 +34,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <img src={logoImg} alt="Image Voiage logo" className="h-10 w-auto" />
-          <span className="font-display text-lg font-semibold tracking-[0.06em] text-primary">
+          <span className="font-display text-lg font-semibold tracking-[0.06em] text-foreground">
             Image Voiage
           </span>
         </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="font-body text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
+                className="font-body text-sm font-medium text-foreground hover:text-primary transition-colors"
               >
                 {link.label}
               </a>
@@ -82,8 +82,15 @@ const Navbar = () => {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="font-body text-base text-foreground/80 hover:text-primary transition-colors"
-                    onClick={() => setMobileOpen(false)}
+                    className="font-body text-[1.025rem] text-foreground/80 hover:text-primary transition-colors"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setMobileOpen(false);
+                      const target = document.querySelector(link.href);
+                      if (target) {
+                        setTimeout(() => target.scrollIntoView({ behavior: "smooth" }), 300);
+                      }
+                    }}
                   >
                     {link.label}
                   </a>

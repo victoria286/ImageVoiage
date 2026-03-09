@@ -32,7 +32,7 @@ const faqs = [
     a: "Save time and money with tailored consultations including wardrobe selection, personalized shopping guides and optional makeup consultation.",
   },
   {
-    q: "Ready to Begin Your Impact Journey?",
+    q: "Ready to Begin Your Style Journey?",
     a: "Step confidently into your next chapter with Image Voiage Consulting, where inner transformation meets outer expression.",
   },
 ];
@@ -73,7 +73,7 @@ const FAQSection = () => {
                 <AccordionTrigger className="font-display text-lg font-semibold text-foreground hover:no-underline py-5">
                   {faq.q}
                 </AccordionTrigger>
-                <AccordionContent className="font-body text-muted-foreground leading-relaxed pb-5">
+                <AccordionContent className="font-body text-[1.025rem] text-foreground leading-relaxed pb-5">
                   {faq.a}
                 </AccordionContent>
               </AccordionItem>
