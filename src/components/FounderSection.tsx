@@ -54,12 +54,12 @@ const FounderSection = () => {
               Victoria
             </h3>
             <p className="font-body text-sm font-medium text-sky-200 uppercase tracking-wider mb-6">
-              Image Consultant & Personal Stylist
+              Image Consultant 
             </p>
-            <p className="font-body text-blue-100/90 leading-relaxed mb-4">
+            <p className="font-body text-white leading-relaxed mb-4">
               Victoria is dedicated to helping individuals align their personal image with their evolving identity and professional presence. Her work focuses on building confidence through intentional wardrobe choices that reflect authenticity, clarity, and purpose.
             </p>
-            <p className="font-body text-blue-100/90 leading-relaxed mb-8">
+            <p className="font-body text-white leading-relaxed mb-8">
               Through a thoughtful and structured approach, she supports clients in refining their style, improving fit and coordination, and presenting themselves with confidence in both personal and professional environments.
             </p>
             <a
