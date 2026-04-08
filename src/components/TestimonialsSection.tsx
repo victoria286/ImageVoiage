@@ -26,6 +26,16 @@ const testimonials = [
     text: "In just one session, Victoria helped me see myself differently. My closet went from chaotic to curated, and getting dressed is finally something I enjoy again.",
     recommendation: "A life-changing experience — worth every moment.",
   },
+  {
+    persona: "System Engineer",
+    text: "Victoria helped me clarify the way I present myself as I move up in my career. I wanted my look to reflect someone who is confident and experienced, and Victoria's advice helped me cut through the noise to understand how to achieve my goal.",
+    recommendation: "If you're serious about leveling up your professional image, this is a must.",
+  },
+  {
+    persona: "Data Analyst",
+    text: "The color analysis session with Victoria was such an eye-opening experience! I'd never realized how much the right colors can make a difference until I saw it for myself. Victoria's guidance was thoughtful and tailored just for me. I left feeling so much more confident about my clothing choices. It totally changed how I see my wardrobe!",
+    recommendation: "Don’t guess your style — get it right with expert guidance.",
+  }
 ];
 
 const TestimonialsSection = () => {
