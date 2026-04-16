@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3 px-6">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <img src={logoImg} alt="Image Voiage logo" className="h-10 w-auto" />
+          <img src={logoImg} alt="Image Voiage logo" className="h-12 w-auto" />
           <span className="font-display text-lg font-semibold tracking-[0.06em] text-foreground">
             Image Voiage
           </span>
