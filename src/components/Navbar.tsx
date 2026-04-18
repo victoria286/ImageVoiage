@@ -30,7 +30,10 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <img src={logoImg} alt="Image Voiage logo" className="h-12 w-auto" />
-          <span className="font-display text-lg font-semibold tracking-[0.06em] text-foreground">
+          <span
+            className="text-lg font-semibold tracking-[0.04em]  text-navy text-blue-900"
+            style={{ fontFamily: 'Inter, sans-serif' }}
+          >
             Image Voiage
           </span>
         </a>
