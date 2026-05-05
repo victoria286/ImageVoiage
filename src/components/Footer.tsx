@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/profile.php?id=61581850151018" aria-label="Facebook" className="text-navy-foreground/50 hover:text-sky transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="https://www.instagram.com/victoriaatimage/?utm_source=ig_web_button_share_sheet" aria-label="Facebook" className="text-navy-foreground/50 hover:text-sky transition-colors">
+              <a href="https://www.instagram.com/imagevoiage/?utm_source=ig_web_button_share_sheet" aria-label="Facebook" className="text-navy-foreground/50 hover:text-sky transition-colors">
                 <Instagram size={20} />
               </a>
             </div>
